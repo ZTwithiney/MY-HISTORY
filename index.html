@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>A Jornada do Cristal Perdido</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="imagem de um laboratório">
+            <p>Em um laboratório antigo, você descobre o diário de um cientista desaparecido. Ele menciona um cristal lendário, capaz de controlar o tempo. Decidido a encontrá-lo, você parte para uma grande aventura!</p>
+            <button class="btn-proximo" data-proximo="1">Seguir as pistas no deserto</button>
+            <button class="btn-proximo" data-proximo="2">Investigar uma ilha misteriosa</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>No deserto, você encontra ruínas antigas com gravuras que indicam a localização de uma caverna escondida.</p>
+            <button class="btn-proximo" data-proximo="3">Explorar a caverna</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e retornar ao laboratório</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Na ilha misteriosa, um guia local fala sobre uma montanha que emite luz à noite. Ele acredita que a montanha guarda o segredo do cristal.</p>
+            <button class="btn-proximo" data-proximo="5">Escalar a montanha</button>
+            <button class="btn-proximo" data-proximo="6">Explorar as praias da ilha</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Dentro da caverna, você encontra um símbolo estranho esculpido na parede, apontando para o fundo do oceano.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para o oceano</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem de volta ao laboratório">
+            <p>Você decide abandonar a aventura e retornar ao laboratório. No entanto, o mistério do cristal continua te assombrando.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>No topo da montanha, você descobre um antigo observatório com mapas celestes, indicando que o cristal está escondido em uma cidade submersa.</p>
+            <button class="btn-proximo" data-proximo="7">Mergulhar no oceano em busca da cidade</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Explorando as praias, você encontra uma pedra com inscrições, mas parece ser apenas uma distração sem saída.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e escalar a montanha</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Nas profundezas do oceano, você se depara com uma bifurcação. Um lado parece mais iluminado, o outro mais escuro e perigoso.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir pelo caminho iluminado</button>
+            <button class="btn-proximo" data-proximo="10">Seguir pelo caminho escuro</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Ao retornar à montanha, você encontra o observatório e descobre que a verdadeira pista está no oceano.</p>
+            <button class="btn-proximo" data-proximo="7">Mergulhar no oceano</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>O caminho iluminado leva você a uma cidade submersa perdida, onde o cristal lendário repousa em um altar no centro.</p>
+            <button class="btn-proximo" data-proximo="11">Recolher o cristal e encerrar a jornada</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>O caminho escuro termina em um labirinto sem saída. Você decide retornar e tentar o outro caminho.</p>
+            <button class="btn-proximo" data-proximo="12">Retornar e seguir o caminho iluminado</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11-cidade-submersa.png" alt="encontrando a cidade submersa">
+            <p>Com o cristal em mãos, você sente seu poder e decide usá-lo para trazer equilíbrio ao mundo. Sua jornada chega ao fim, mas sua nova missão apenas começou.</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Retornando ao caminho iluminado, você finalmente encontra a cidade submersa e o cristal. Agora, seu destino está nas suas mãos.</p>
+            <button class="btn-proximo" data-proximo="11">Recolher o cristal e encerrar a jornada</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
